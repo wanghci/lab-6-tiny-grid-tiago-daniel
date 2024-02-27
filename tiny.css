@@ -1,13 +1,13 @@
-.main-head .main-nav .side .ad .main-footer{
-    visibility: hidden;
-  }
-  
 @media (max-width: 375px){
+    .main-head, .main-nav, .side, .ad, .main-footer{
+        display: none;
+    }
+
     .wrapper {
         grid-template-areas:
           "content";
-      }
+        }
       nav ul {
         flex-direction: column;
-    }
+        }
 }
